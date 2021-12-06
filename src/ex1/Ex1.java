@@ -12,7 +12,7 @@ public class Ex1 {
 
        int mb = 1024*1024;
        long memorySize = ((com.sun.management.OperatingSystemMXBean) ManagementFactory
-               .getOperatingSystemMXBean()).getTotalPhysicalMemorySize()/mb;
+               .getOperatingSystemMXBean()).getTotalMemorySize()/mb;
        long memoryFree = ((com.sun.management.OperatingSystemMXBean) ManagementFactory
                .getOperatingSystemMXBean()).getFreeMemorySize()/mb;
 
